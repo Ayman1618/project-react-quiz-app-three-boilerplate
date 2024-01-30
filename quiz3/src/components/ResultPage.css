@@ -1,0 +1,84 @@
+body{
+    background-color: cadetblue;
+}
+.result-box {
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.result-text {
+    color: rgb(6, 31, 45);
+    
+}
+
+.resultPage-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(164, 236, 212);
+    width: 62vw;
+    height: 35vw;
+    color: black;
+    padding-inline: 2vw;
+    margin-bottom: -10px;
+}
+
+.score {
+    font-size: 0.8rem;
+    color: rgb(13, 13, 188);
+    margin-top: -20px;
+}
+
+.statement h2 {
+    font-size: 1.5rem;
+}
+
+.noOfQuestions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.questions {
+    margin-top: 1vh;
+}
+
+
+
+.noOfQuestions h3 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.buttonss {
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+    display: flex;
+    column-gap: 2.7vw;
+}
+
+.back-btn {
+    background-color: rgb(241, 247, 253);
+    color: rgb(0, 128, 1);
+    height: 6.5vh;
+    border-radius: 0;
+    margin-top: -0.5vw;
+    border: 3px outset rgb(0, 128, 1);
+    
+}
+
+.play-btn {
+    background-color: rgb(241, 247, 253);
+    color: rgb(134, 134, 243);
+    height: 6.5vh;
+    border-radius: 0;
+    margin-top: -0.5vw;
+    border: 3px outset rgb(134, 134, 243);
+    
+}
+
+
